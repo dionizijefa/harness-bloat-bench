@@ -1,2 +1,7 @@
 .DS_Store
 .venv
+.ruff_cache/
+__pycache__/
+*.py[cod]
+outputs/
+push.log
