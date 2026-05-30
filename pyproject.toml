@@ -1,0 +1,14 @@
+[project]
+name = "harness-bloat-bench"
+version = "0.1.0"
+description = "Minimal experimental loop for running Terminal-Bench tasks across harness versions and models."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib",
+    "pandas",
+    "terminal-bench",
+]
+
+[tool.uv]
+package = false
